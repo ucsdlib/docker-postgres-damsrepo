@@ -1,4 +1,4 @@
-FROM postgres:10.5-alpine
+FROM postgres:11-alpine
 MAINTAINER "Matt Critchlow <mcritchlow@ucsd.edu>"
 ENV POSTGRES_USER dams
 ENV POSTGRES_PASSWORD dams
